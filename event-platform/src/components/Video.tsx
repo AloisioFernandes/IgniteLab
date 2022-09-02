@@ -1,3 +1,5 @@
+import { DiscordLogo, Lightning } from "phosphor-react";
+
 export function Video() {
   return (
     <div className="flex-1">
@@ -14,10 +16,18 @@ export function Video() {
             <p className="mt-4 text-gray-200">
               Descrição da primeira aula do ignite lab.
             </p>
-
           </div>
 
-          <div></div>
+          <div className="flex flex-col gap-4">
+            <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center">
+              <DiscordLogo size={24} />
+              Comunidade do Discord
+            </a>
+            <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center">
+              <Lightning size={24} />
+              Acesse o desafio
+            </a>
+          </div>
         </div>
         <div>
 
